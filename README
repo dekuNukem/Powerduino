@@ -1,0 +1,5 @@
+Powerduino - A fully programmable power strip with energy monitoring and wireless connectivity
+
+A short introduction video: https://www.youtube.com/watch?v=ZPqnHy5OSVQ
+
+Powerduino is a power strip that has been enhanced with a Teensy 3.1 microcontroller, RTC, current sensors, relays, WiFi module, external digital/analog IO pins, LCD, SD card, USB connector, and buttons. With an arsenal of new sensors and components, along with its open source design and Arduino compatible microcontroller, users are able to wirelessly control and monitor each socket over WiFi, observe real-time current, power and energy consumption of individual sockets, perform energy usage logging on SD card, and upload custom programs to the power strip through Arduino IDE to perform any action they want on each socket. 
