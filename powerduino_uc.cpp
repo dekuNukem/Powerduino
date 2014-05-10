@@ -187,13 +187,8 @@ public:
 		current_sensor_pin[3] = c4;
 		size = 83;
 		buffer_index = 0;
-		for(int i = 0; i < size; i++)
-			for(int j = 0; j < 3; j++)
-				sample_array[j][i] = 0;
-
-		for(int i = 0; i < 10; i++)
-			for(int j = 0; j < 3; j++)
-				output_buf[j][i] = 0;
+		memset( sample_array, 0, sizeof( sample_array ) );
+		memset( output_buf,   0, sizeof( output_buf )   );
 	}
 
 	void read_current(uint16_t current_array[4])
